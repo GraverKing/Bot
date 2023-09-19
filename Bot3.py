@@ -63,7 +63,7 @@ def view_responses(update: Update, context: CallbackContext):
     conn.close()
 
 # Создание экземпляра Updater и регистрация обработчиков
-TOKEN = '6006450262:AAH6jim5DwecaNe9xMv35nQUkSwnd8jzAWs'
+TOKEN = '6380215998:AAEKYVhL0C1mW8QoM5dvoE74ih1FiMiMOLc'
 updater = Updater(token=TOKEN, use_context=True)
 
 dispatcher = updater.dispatcher
